@@ -1,0 +1,37 @@
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 30px 0;
+}
+
+.card__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+  height: 400px;
+}
+
+.card__img {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__description {
+  margin: 10px 0;
+  max-width: 260px;
+}
+
+.card__discount {
+  background-color: #ffd5a3;
+  color: #d88d31;
+  padding: 5px;
+  border-radius: 8px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}

@@ -1,0 +1,32 @@
+.header {
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.header__logo,
+.header__text {
+  margin: 0 20px;
+  z-index: 1;
+}
+
+.header__text {
+  background-color: #d35a35;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.header__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 70px;
+}

@@ -1,0 +1,32 @@
+/* transition */
+
+button {
+  border: none;
+  padding: 10px 0;
+  color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  max-width: 300px;
+  cursor: pointer;
+}
+
+.buyBtn {
+  background-color: #dc5832;
+  margin: 0 auto;
+  transition: all 0.4s ease-in-out;
+}
+
+.buyBtn:hover {
+  background-color: #bb7460;
+  color: #5a5a5a;
+}
+
+.buyBtn.buyBtn-disabled {
+  background-color: #bb7460;
+  color: #5a5a5a;
+}
+
+.cardBtn {
+  background-color: #f09e38;
+  width: 100%;
+}

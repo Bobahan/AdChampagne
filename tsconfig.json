@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES5",
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src", "Global.d.ts"],
+  "exclude": ["node_modules"]
+}
